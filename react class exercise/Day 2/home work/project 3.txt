@@ -1,0 +1,15 @@
+3. creating image tag
+
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <>
+      <h1><center>Hello World</center></h1>
+      <center><img src="https://tse3.mm.bing.net/th?id=OIP.tHB1UIkPU-3zcDchLBN0QQHaEo&pid=Api&P=0&h=180" alt="no photo" height="250px" width="250px"></img></center>
+    </>
+  );
+}
+
+export default App;

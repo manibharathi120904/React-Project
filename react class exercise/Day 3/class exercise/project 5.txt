@@ -1,0 +1,31 @@
+1.
+import PassMessage from './PassMessage';
+import FailMessage from './FailMessage';
+
+function App(props) {
+  const isPass=props.isPass;
+  if(isPass)
+  {
+    return <PassMessage />;
+  }
+  return <FailMessage />;
+};
+
+export default App;
+
+import React from 'react';
+class PassMessage extends React.Component{
+    render()
+    {
+        return <h1>Hi PassMessage!!!</h1>
+    }
+}
+export default PassMessage;
+import React from 'react';
+class FailMessage extends React.Component{
+    render()
+    {
+        return <h1>Hi FailMessage!!!</h1>
+    }
+}
+export default FailMessage;
